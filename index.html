@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SpiritUp - Luz R07</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>✨ SpiritUp ✨</h1>
+    <p>Creciendo cada día en la Palabra</p>
+
+    <div class="racha">
+      🔥 Racha actual: <span id="streak">0</span> días
+    </div>
+
+    <button onclick="nuevaReflexion()">Hacer mi R07 ✍️</button>
+
+    <div id="reflexion-area" style="display:none;">
+      <textarea id="texto" placeholder="Escribe tu reflexión aquí..."></textarea>
+      <button onclick="guardarReflexion()">Guardar</button>
+    </div>
+
+    <div id="mensaje"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
